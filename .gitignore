@@ -1,0 +1,30 @@
+# .gitignore - There are a lot of different types of programs in here. I
+# can't catch all of their artifacts, especially since some file extensions
+# clash, so try to clean up after yourself if you plan on sending a pull
+# request (or maintaining a clean repository of your own for that matter).
+
+# If you do want to build something, make sure it's in a directory with one of
+# these names and it won't be seen by git.
+bin/
+build/
+
+# Temporary Files
+.*.sw[a-z]
+*~
+
+# Compiled Executables
+*.exe
+
+# C
+*.so
+
+# Java
+*.[jwe]ar
+
+# Python
+*.py[cod]
+
+# Ruby
+*.rbc
+*.bundle
+
