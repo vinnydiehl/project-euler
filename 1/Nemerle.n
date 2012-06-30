@@ -1,0 +1,4 @@
+using Nemerle.IO;
+def items = $[x | x in [1..999], x % 3 == 0 || x % 5 == 0];
+print(items.FoldRight(0, fun(a, b){a+b}));
+
