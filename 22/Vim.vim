@@ -2,7 +2,7 @@
 " vim -S e22.vim names.txt
 
 " Split to lines on commas and sort.
-s/,//g | sort
+s/,/^M/g | sort
 
 " Replace each letter with its value and a +.
 %s/\u/\=char2nr(submatch(0)) - 64 . '+'/g
